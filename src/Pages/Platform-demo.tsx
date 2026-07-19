@@ -40,15 +40,12 @@ const PlatformDemo = () => {
 
             <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-black">
                 <div className="max-w-6xl mx-auto">
-                    
+
                     {/* Form Header */}
                     <div className="text-center mb-12">
                         <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
                             Request a Platform Demo
                         </h1>
-                        <p className="mt-4 text-slate-400 text-base sm:text-lg max-w-2xl mx-auto">
-                            Fill out the details below and our team will prepare a custom demonstration tailored for your label or distribution platform.
-                        </p>
                     </div>
 
                     {/* Form Card Container */}
@@ -69,7 +66,7 @@ const PlatformDemo = () => {
                             </div>
                         ) : (
                             <form onSubmit={handleSubmit} className="space-y-6">
-                                
+
                                 {/* Row 1: FIRST NAME & LAST NAME */}
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div>

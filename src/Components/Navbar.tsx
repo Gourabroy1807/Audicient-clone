@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import WhiteLogo from "../assets/whitelogo.png";
+import WhiteLogo from "../assets/WhiteLogo.png";
 
 const SparkleIcon = () => (
     <svg className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">

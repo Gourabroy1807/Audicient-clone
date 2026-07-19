@@ -1,7 +1,7 @@
-import white_label from "../Assets/white-label.svg"
-import ecosystem from "../Assets/ecosystem.svg"
-import rest_api from "../Assets/rest-api.svg"
-import technology_partner from "../Assets/technology-partner.svg"
+import white_label from "../assets/white-label.svg"
+import ecosystem from "../assets/ecosystem.svg"
+import rest_api from "../assets/rest-api.svg"
+import technology_partner from "../assets/technology-partner.svg"
 
 const InfoSection = () => {
     return (

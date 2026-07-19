@@ -196,9 +196,13 @@ const Navbar: React.FC = () => {
 
                 {/* Right CTA */}
                 <div>
-                    <button className="bg-blue-600 hover:bg-blue-500 text-white font-medium text-lg px-4 py-2 rounded-lg shadow-md shadow-blue-600/30 transition-all cursor-pointer">
+                    <Link
+                        to="/PlatformDemo"
+                        onClick={() => { setIsFeaturesOpen(false); window.scrollTo(0, 0); }}
+                        className="bg-blue-600 hover:bg-blue-500 text-white font-medium text-lg px-4 py-2 rounded-lg shadow-md shadow-blue-600/30 transition-all cursor-pointer inline-block no-underline"
+                    >
                         Get Started
-                    </button>
+                    </Link>
                 </div>
             </nav>
         </header>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import heroImg from "../assets/hero.png"
 
 const Hero = () => {
@@ -29,9 +30,13 @@ const Hero = () => {
 
                 {/* Primary CTA Button */}
                 <div className="mt-8">
-                    <button className="bg-blue-600 hover:bg-blue-500 text-white font-medium text-lg px-4 py-2 rounded-lg shadow-md shadow-blue-600/30 transition-all cursor-pointer mt-10 mb-10">
+                    <Link
+                        to="/PlatformDemo"
+                        onClick={() => window.scrollTo(0, 0)}
+                        className="bg-blue-600 hover:bg-blue-500 text-white font-medium text-lg px-4 py-2 rounded-lg shadow-md shadow-blue-600/30 transition-all cursor-pointer mt-10 mb-10 inline-block no-underline"
+                    >
                         Get Started
-                    </button>
+                    </Link>
                 </div>
             </div>
 

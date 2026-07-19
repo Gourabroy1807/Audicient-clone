@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CheckIcon: React.FC = () => (
     <svg className="w-4 h-4 text-white flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
@@ -57,9 +58,13 @@ const PricingCards: React.FC = () => {
                     </div>
 
                     <div className="mt-8 pt-4">
-                        <button className="w-full bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-medium text-base sm:text-lg py-3 px-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all duration-200 cursor-pointer">
+                        <Link
+                            to="/PlatformDemo"
+                            onClick={() => window.scrollTo(0, 0)}
+                            className="w-full text-center block bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-medium text-base sm:text-lg py-3 px-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all duration-200 cursor-pointer no-underline"
+                        >
                             Get Started
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
@@ -104,9 +109,13 @@ const PricingCards: React.FC = () => {
                     </div>
 
                     <div className="mt-8 pt-4">
-                        <button className="w-full bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-medium text-base sm:text-lg py-3 px-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all duration-200 cursor-pointer">
+                        <Link
+                            to="/PlatformDemo"
+                            onClick={() => window.scrollTo(0, 0)}
+                            className="w-full text-center block bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-medium text-base sm:text-lg py-3 px-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all duration-200 cursor-pointer no-underline"
+                        >
                             Get Started
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
@@ -157,9 +166,13 @@ const PricingCards: React.FC = () => {
                     </div>
 
                     <div className="mt-8 pt-4">
-                        <button className="w-full bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-medium text-base sm:text-lg py-3 px-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all duration-200 cursor-pointer">
+                        <Link
+                            to="/PlatformDemo"
+                            onClick={() => window.scrollTo(0, 0)}
+                            className="w-full text-center block bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-medium text-base sm:text-lg py-3 px-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all duration-200 cursor-pointer no-underline"
+                        >
                             Get Started
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
